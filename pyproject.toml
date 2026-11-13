@@ -7,7 +7,10 @@ authors = [
     { name = "esperantvernay", email = "espe.vernay@gmail.com" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "click>=8.5.1",
+    "requests>=2.34.2",
+]
 
 [project.scripts]
 wordfreq-cli = "wordfreq_cli:main"
